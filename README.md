@@ -11,4 +11,5 @@ Technology used:
 -Html/Css
 -Jquery
 
-Wireframes
+Wireframes:
+https://github.com/jrc0rey/project_3/public/images/IMG_0630.JPG
