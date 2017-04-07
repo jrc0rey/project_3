@@ -1,0 +1,233 @@
+body {
+  margin: 0;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+#login_register {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#login_register h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: black;
+  font-size: 12px;
+}
+#login_register #exists {
+  margin: 0;
+  position: relative;
+  bottom: 50px;
+}
+#login_register #wrong {
+  margin: 0;
+  position: relative;
+  bottom: 50px;
+}
+#login_register .loginContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 400px;
+}
+#login_register .loginContainer img {
+  position: relative;
+  bottom: 40px;
+}
+#login_register .loginContainer #inputs {
+  position: relative;
+  bottom: 100px;
+}
+#login_register .loginContainer #buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+}
+#login_register .loginContainer .login {
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+  font-weight: 300;
+  color: black;
+  background: white;
+  border: 1px solid #ff336d;
+  width: 130px;
+  height: 25px;
+  margin-left: 2.5px;
+}
+#login_register .loginContainer .register {
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+  font-weight: 300;
+  color: black;
+  background: white;
+  border: 1px solid #ff336d;
+  width: 130px;
+  height: 25px;
+  margin-right: 2.5px;
+}
+#login_register .loginContainer #username,
+#login_register .loginContainer #password {
+  width: 200px;
+  height: 25px;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  background: white;
+  border: 1px solid #ff336d;
+}
+#questionPage {
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#questionPage .small {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-size: 11px;
+  margin: 0;
+}
+#questionPage h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: black;
+  font-size: 12px;
+  margin: 0;
+}
+#questionPage .ask {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: black;
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+#questionPage .questionHead {
+  width: 100%;
+  height: 40px;
+  background-color: none;
+  position: fixed;
+  top: 0;
+}
+#questionPage a {
+  text-decoration: none;
+}
+#questionPage textarea {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  border: 1px solid black;
+  resize: none;
+  width: 400px;
+  height: 200px;
+  opacity: .7;
+}
+#questionPage #formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 300px;
+}
+#questionPage form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#questionPage #submitQuestion {
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+  font-weight: 300;
+  color: black;
+  background: white;
+  border: 1px solid #ff336d;
+  width: 130px;
+  height: 25px;
+  margin-top: 13px;
+}
+.questionContainer {
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.block {
+  width: 50%;
+  height: 130px;
+  min-width: 350px;
+  margin-top: 25px;
+  border-bottom: thin solid black;
+}
+.block #response {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.block .question {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  color: black;
+  font-size: 25px;
+}
+.block .goodCounter,
+.block .badCounter,
+.block .creepyCounter {
+  width: 30px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: black;
+  font-size: 13px;
+}
+.block .posted {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-size: 11px;
+}
+.block .good,
+.block .bad,
+.block .creepy {
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+  font-weight: 300;
+  color: black;
+  width: 70px;
+  height: 20px;
+  background: white;
+  border: 1px solid #ff336d;
+}
+.block .goodCounter,
+.block .badCounter,
+.block .creepyCounter {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: black;
+  font-size: 13px;
+  padding-right: 10px;
+}
+.block .posted {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: black;
+  font-size: 11px;
+}

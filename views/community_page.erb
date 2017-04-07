@@ -1,0 +1,41 @@
+<body id="questionPage">
+ 
+ <header class="questionHead">
+ 	<a href="/welcome/logout"><h4>Logout</h4></a>
+ 	<a href="/question"><h4>Submit another opener</h4></a>
+ </header>
+
+<div class="questionContainer">
+<% @question.each do |question| %>
+	<div class="block">
+  		<h2 class="question">
+  		<%= question.question %> 
+  		</h2>
+  		<div id="response">
+  			<button data-id = <%= question.id %> class="good">good</button>
+  				<div class="goodCounter"><p class="goodNum"><%=question.good %></p></div>
+  			
+  			<button data-id = <%= question.id %> class="bad">lame</button>
+  				<div class="badCounter"><p class="badNum"><%= question.bad %></p></div>
+  			
+  			<button data-id = <%= question.id %> class="creepy">just creepy</button>
+  				<div class="creepyCounter"><p class="creepyNum"><%=question.creepy%></p></div>
+  		</div>
+  		<p class="posted">
+  		posted by <%= question.username %> on <%= question.created %>
+  		</p>
+ 	</div>
+<% end %>
+</div>
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="/scripts/script.js"></script>
+
+</body>

@@ -1,0 +1,290 @@
+@red: #cd2644;
+
+body{
+	margin:0;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+#login_register{
+width: 100%;
+height: 100vh;
+background-color: white;
+// background: url("/images/login.jpg") no-repeat center center fixed;
+// -webkit-background-size: cover;
+// -moz-background-size: cover;
+// -o-background-size: cover;
+// background-size: cover;
+display: flex;
+align-items: center;
+justify-content: center;
+
+	h4{
+		font-family: 'Roboto', sans-serif;
+		font-weight: 300;
+		color: black;
+		font-size: 12px;
+	}
+
+
+	#exists{
+		margin: 0;
+		position: relative;
+		bottom: 50px;
+	}
+
+	#wrong{
+		margin: 0;
+		position: relative;
+		bottom: 50px;
+	}
+
+	.loginContainer{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 600px;
+		height: 400px;
+		// background-color: rgba(0,0,0,.6);
+
+
+	
+
+	img{
+		position: relative;
+		bottom: 40px;
+	}
+
+	#inputs{
+		position:relative;
+		bottom: 100px;
+
+	}
+
+	#buttons{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 12px;
+	}
+	 
+	 .login{
+	 	font-family: 'Roboto', sans-serif;
+		font-size: 11px;
+		font-weight: 300;
+		color: black;
+		background: white;
+		border: 1px solid #ff336d;	
+	 	width: 130px;
+	 	height: 25px;
+	 	margin-left: 2.5px;
+
+	 }
+	 .register{
+	 	font-family: 'Roboto', sans-serif;
+		font-size: 11px;
+		font-weight: 300;
+		color: black;
+		background: white;
+		border: 1px solid #ff336d;
+	 	width: 130px;
+	 	height: 25px;
+	 	margin-right: 2.5px;
+
+	 }
+	 #username, #password{
+	 	width: 200px;
+	 	height: 25px;
+	 	// background: rgba(0,0,0,.6);
+	 	color: black;
+	 	font-family: 'Roboto', sans-serif;
+		font-size: 20px;
+		background: white;
+		border: 1px solid #ff336d;
+	 }
+
+	}
+}
+
+#questionPage{
+width: 100%;
+height: 100vh;
+overflow: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+	.small{
+		font-family: 'Roboto', sans-serif;
+		color: black;
+		font-size: 11px;
+		margin: 0;
+	}
+
+	h4{
+		font-family: 'Roboto', sans-serif;
+		font-weight: 300;
+		color: black;
+		font-size: 12px;
+		margin:0;
+	}
+
+	.ask{
+		font-family: 'Roboto', sans-serif;
+		font-weight: 300;
+		color: black;
+		font-size: 45px;
+		margin-bottom: 10px;
+	}
+
+
+	.questionHead{
+		width: 100%;
+		height: 40px;
+		background-color: none;
+		position: fixed;
+		top: 0;
+	}
+
+	a{
+		text-decoration: none;
+	}
+
+
+	textarea{
+		font-family: 'Roboto', sans-serif;
+		font-weight: 300;
+		font-size: 30px;
+		border: 1px solid black;
+		resize: none;
+		width: 400px;
+		height: 200px;
+		opacity: .7;
+		// border-radius: 10px;
+	}
+
+	#formContainer{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		// border: 1px solid #ff336d;
+		width: 500px;
+		height: 300px;		
+	}
+
+	form{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#submitQuestion{
+		font-family: 'Roboto', sans-serif;
+		font-size: 11px;
+		font-weight: 300;
+		color: black;
+		background: white;
+		border: 1px solid #ff336d;	
+	 	width: 130px;
+	 	height: 25px;
+	 	margin-top: 13px;
+	}
+}
+
+.questionContainer{
+	width: 100%;
+	height: 100vh;
+	overflow: auto;
+	margin-top: 50px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+
+.block{
+	width: 50%;
+	height: 130px;
+	min-width: 350px;
+	// border-style: 1px solid black;
+	// background-color: rgba(0,0,0,.5);
+	margin-top: 25px;
+	border-bottom: thin solid black;
+	// overflow: auto;
+
+	#response{
+		width:100%;
+		height: 20px;
+		display: flex;
+		flex-direction: row;
+
+	}
+
+	.question{
+		font-family: 'Roboto', sans-serif;
+		font-weight: 100;
+		color: black;
+		font-size: 25px;
+	}
+
+	.goodCounter, .badCounter, .creepyCounter {
+		width: 30px;
+		height: 20px;
+		// background-color: red;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-family: 'Roboto', sans-serif;
+		font-weight: 300;
+		color: black;
+		font-size: 13px;
+	}
+
+	.posted{
+		font-family: 'Roboto', sans-serif;
+		color: black;
+		font-size: 11px;
+
+	}
+
+	.good, .bad, .creepy{
+		font-family: 'Roboto', sans-serif;
+		font-size: 11px;
+		font-weight: 300;
+		color: black;
+		width: 70px;
+		height: 20px;
+		background: white;
+		border: 1px solid #ff336d;
+	}
+
+	.goodCounter, .badCounter, .creepyCounter{
+		font-family: 'Roboto', sans-serif;
+		font-weight: 700;
+		color: black;
+		font-size: 13px;
+		padding-right: 10px;
+	}
+
+	.posted{
+		font-family: 'Roboto', sans-serif;
+		font-weight: 300;
+		color: black;
+		font-size: 11px;
+		
+	}
+}
+
+
+
+
+
