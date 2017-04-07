@@ -12,4 +12,10 @@ Technology used:
 -Jquery
 
 Wireframes:
-https://github.com/jrc0rey/project_3/public/images/IMG_0630.JPG
+https://github.com/jrc0rey/project_3/blob/master/public/images/IMG_0630.JPG
+
+Improvements:
+I changed my concept for the app at the last minute which was probably a mistake.
+I spent too much time focusing on the little things when I should have focused on
+the main idea. If I would have locked in a solid concept I could've has the time
+to make user profile pages and done something more unique.
